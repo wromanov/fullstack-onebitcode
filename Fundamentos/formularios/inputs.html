@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <!--Campo de Texto-->
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" placeholder="digite seu nome" />
+      <br />
+      <br />
+
+      <!--Campo de email-->
+      <label for="email">E-mail:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="digite seu email"
+      />
+      <br /><br />
+
+      <!--Campo de Senha-->
+      <label for="senha">Senha:</label>
+      <input
+        type="password"
+        id="senha"
+        name="senha"
+        placeholder="digite sua senha"
+      />
+      <br /><br />
+
+      <!--Campo de Seleção raio-->
+      <label>Genero:</label><br />
+      <input type="radio" name="genero" id="masculino" value="M" />
+      <label for="masculino">Masculino</label>
+
+      <input type="radio" name="genero" id="feminino" value="F" />
+      <label for="feminino">Feminino</label>
+      <br /><br />
+
+      <!--Campo de seleção multipla (Chequebox)-->
+      <label>Interesses:</label>
+      <input type="checkbox" name="Interesses" id="backend" value="front" />
+      <label for="backend">Back-End</label>
+
+      <input type="checkbox" name="Interesses" id="frontend" value="back" />
+      <label for="frontend">Front-End</label>
+
+      <input type="checkbox" name="Interesses" id="mobile" value="mobile" />
+      <label for="mobile">Mobile</label>
+
+      <button type="submit">Enviar</button>
+      <br /><br />
+    </form>
+  </body>
+</html>
